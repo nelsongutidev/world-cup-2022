@@ -1,0 +1,24 @@
+:host {
+  .header {
+    height: 75px;
+    background-color: #f6f6f6;
+    &__content {
+      display: flex;
+      justify-content: space-between;
+      padding: 0 3rem;
+      align-items: center;
+      height: 100%;
+    }
+
+    h1 a {
+      text-decoration: none;
+    }
+
+    &__menu ul {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 10px;
+    }
+  }
+}
